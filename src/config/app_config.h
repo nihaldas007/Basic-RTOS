@@ -20,5 +20,12 @@ namespace cfg {
     constexpr uint32_t BTN_DEBOUNCE_MS = 50;
     constexpr uint32_t BTN_SHORT_MS = 200;
     constexpr uint32_t BTN_LONG_MS = 1000;
+
+    bool BUTTON_STATE;
+
 }
-   
+
+namespace pins {
+    constexpr int RIGHT_BUTTON_PIN = 23; // GPIO23
+    constexpr int LED_BUILTIN_PIN = 2;   // GPIO2
+}
